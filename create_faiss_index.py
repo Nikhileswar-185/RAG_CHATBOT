@@ -39,3 +39,6 @@ class CreateFAISS:
                 self.vector_store.add_to_faiss(chunks)
 
         print("✅ All files processed successfully!")
+
+create_faiss = CreateFAISS()
+create_faiss.update_vectors()

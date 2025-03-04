@@ -67,8 +67,8 @@ class VectorStore:
             try:
                 self.vector_store.add_documents(new_chunks, ids=new_chunk_ids)
             except Exception as e:
-                print("ERROR : Documents already exists in FAISS Index , Proceed to Ask questions")
-                exit()
+                print("Documents already exists in FAISS Index ")
+                
 
             print(f"Inserted new documents to FIASS: {len(new_chunks)}")
             self.vector_store.save_local("faiss_index")
