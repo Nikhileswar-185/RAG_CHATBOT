@@ -5,7 +5,6 @@ This chatbot can answer user queries based on our custom data.
 ## 🚀 Installation  
 Clone the repository and install the required dependencies.
 
-```bash
 git clone https://github.com/Nikhileswar-185/RAG_CHATBOT.git
 cd RAG_CHATBOT
 pip install -r requirements.txt
@@ -14,7 +13,7 @@ pip install -r requirements.txt
 
 ## **3️⃣ LLM Configuration**
 ```md
-[Click here to visit Google](https://www.google.com)
+[Get GEMINI API KEY](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi2u8DevfCLAxV2pGYCHU90DKEYABAAGgJzbQ&co=1&gclid=CjwKCAiA5pq-BhBuEiwAvkzVZTArACFSm3-ObwnnVXiM8Fh79RHV24XQmfI4FfxJwrVdpD2BD3bZTRoCGeQQAvD_BwE&ohost=www.google.com&cid=CAESVeD2hDML-cIRLTL182WcPU-i-HptWeN5u2KunU0ppHm25qvoeq7-_5WB1SXI35v5X7ZL7CBzOUfS7glS8wRIvly26rPeK2BC51ifHoqXmfguCCmJuRA&sig=AOD64_0AZcKBfjCOiRdbTR6nQbWDJjw7-w&q&adurl&ved=2ahUKEwjRqrvevfCLAxXwamwGHR4CEXQQ0Qx6BAgJEAE)
 
 
 
