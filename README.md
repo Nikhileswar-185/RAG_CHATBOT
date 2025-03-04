@@ -16,14 +16,11 @@ pip install -r requirements.txt
 ## **3️⃣ How to Use**
 ```md
 ## 📖 Usage  
-1.python create_faiss_index.py
-
 In the terminal the above command - it creates embeddings and store them in FAISS vector database
+  -> python create_faiss_index.py
 
-Once you see the message "All files processed successfully!"
-
-2. streamlit run app.py
-
+Once you see the message "All files processed successfully!" , run the below command
+  -> streamlit run app.py
 Opens your chatbot in localhost
 
 
