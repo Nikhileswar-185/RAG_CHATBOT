@@ -53,7 +53,7 @@ streamlit run app.py
 ```
 
 This will start the chatbot interface on **localhost**.
-
+Let it load till you see the text box , and you are ready to query on your custom documents
 ---
 
 ## 🤖 Features
