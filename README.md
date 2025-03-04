@@ -1,34 +1,70 @@
-# RAG_CHATBOT 
-A Retrieval-Augmented Generation (RAG) chatbot built using Streamlit, LangChain, FAISS, and Hugging Face embeddings.  
-This chatbot can answer user queries based on our custom data.
+# RAG\_CHATBOT
 
-## 🚀 Installation  
-Clone the repository and install the required dependencies.
-
-git clone https://github.com/Nikhileswar-185/RAG_CHATBOT.git
-cd RAG_CHATBOT
-pip install -r requirements.txt
+A **Retrieval-Augmented Generation (RAG)** chatbot built using **Streamlit, LangChain, FAISS, and Hugging Face embeddings**. This chatbot can answer user queries based on custom data.
 
 ---
 
-## **3️⃣ LLM Configuration**
-```md
-[Get GEMINI API KEY](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi2u8DevfCLAxV2pGYCHU90DKEYABAAGgJzbQ&co=1&gclid=CjwKCAiA5pq-BhBuEiwAvkzVZTArACFSm3-ObwnnVXiM8Fh79RHV24XQmfI4FfxJwrVdpD2BD3bZTRoCGeQQAvD_BwE&ohost=www.google.com&cid=CAESVeD2hDML-cIRLTL182WcPU-i-HptWeN5u2KunU0ppHm25qvoeq7-_5WB1SXI35v5X7ZL7CBzOUfS7glS8wRIvly26rPeK2BC51ifHoqXmfguCCmJuRA&sig=AOD64_0AZcKBfjCOiRdbTR6nQbWDJjw7-w&q&adurl&ved=2ahUKEwjRqrvevfCLAxXwamwGHR4CEXQQ0Qx6BAgJEAE)
+## 🚀 Installation
 
+Clone the repository and install the required dependencies:
 
+```bash
+git clone https://github.com/Nikhileswar-185/RAG_CHATBOT.git
+cd RAG_CHATBOT
+pip install -r requirements.txt
+```
 
+---
 
-## **3️⃣ How to Use**
-```md
-## 📖 Usage  
-In the terminal,  run the below command - it creates embeddings and store them in FAISS vector database
-1. python create_faiss_index.py
+## 🔑 LLM Configuration
 
-Once you see the message "All files processed successfully!" , run the below command
-2.streamlit run app.py
+To use **Gemini API**, create an API key and add it to the `.env` file.
 
-Opens your chatbot in localhost
+🔗 [Get GEMINI API KEY](https://www.google.com)
 
+- If you want to use a different LLM service, modify the `generate_response()` function in the **LLM class** located in `llm.py` accordingly.
 
+---
 
+## 📖 How to Use
+
+Run the following commands in the terminal:
+
+### **1️⃣ Create FAISS Embeddings**
+
+```bash
+python create_faiss_index.py
+```
+
+Once you see the message **"All files processed successfully!"**, proceed to the next step.
+
+### **2️⃣ Start the Chatbot**
+
+```bash
+streamlit run app.py
+```
+
+This will launch the chatbot on **localhost**.
+
+---
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📧 Contact
+
+For any queries, reach out to [**Nikhileswar185@gmail.com**](mailto\:your-email@example.com).
+
+---
 
