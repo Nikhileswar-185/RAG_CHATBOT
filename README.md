@@ -1,34 +1,70 @@
-# RAG_CHATBOT 
-A Retrieval-Augmented Generation (RAG) chatbot built using Streamlit, LangChain, FAISS, and Hugging Face embeddings.  
-This chatbot can answer user queries based on our custom data.
+# RAG\_CHATBOT
 
-## 🚀 Installation  
-Clone the repository and install the required dependencies.
+A **Retrieval-Augmented Generation (RAG)** chatbot built using **Streamlit, LangChain, FAISS, and Hugging Face embeddings**. This chatbot answers user queries based on custom data.
+
+---
+
+## 🚀 Installation
+
+Clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/Nikhileswar-185/RAG_CHATBOT.git
 cd RAG_CHATBOT
 pip install -r requirements.txt
+```
 
 ---
 
-## **3️⃣ LLM Configuration**
-```md
-[Click here to visit Google]([API_LINK](https://aistudio.google.com/app/apikey?_gl=1*e0wvf9*_ga*MTgzODc3NDA3Ny4xNzQxMDg4NzU1*_ga_P1DBVKWT6V*MTc0MTA4ODc1NS4xLjEuMTc0MTA4ODc4Ni4yOS4wLjU1MzI5NDMyMw..) )
+## 📂 Data Preparation
 
+Place all your **PDF files** inside the `data` folder. These documents will be used to generate embeddings for retrieval.
 
+---
 
-## **3️⃣ How to Use**
-```md
-## 📖 Usage  
-In the terminal,  run the below command - it creates embeddings and store them in FAISS vector database
-1. python create_faiss_index.py
+## 🔑 LLM Configuration
 
-Once you see the message "All files processed successfully!" , run the below command
-2.streamlit run app.py
+1. **Generate a GEMINI API Key** using the link below and replace it in the `.env` file:
 
-Opens your chatbot in localhost
+   [Get GEMINI API KEY](https://www.google.com)
 
+2. **Alternative LLM Services**: If you want to use another LLM service, modify the `generate_response()` function in the `llm.py` file accordingly.
 
+---
 
+## 🛠 How to Use
 
+### 1️⃣ Generate Embeddings & Create FAISS Index
+
+Run the following command to process the documents and create the FAISS vector database:
+
+```bash
+python create_faiss_index.py
+```
+
+Once you see the message **"All files processed successfully!"**, proceed to the next step.
+
+### 2️⃣ Start the Chatbot
+
+Run the following command to launch the chatbot in your browser:
+
+```bash
+streamlit run app.py
+```
+
+This will start the chatbot interface on localhost. Let it load till you see the text box , and you are ready to query on your custom documents
+---
+
+## 🤖 Features
+
+✅ **Supports PDF documents as knowledge base**\
+✅ **Uses FAISS for efficient similarity search**\
+✅ **Retrieval-Augmented Generation (RAG) approach**\
+✅ **Easy-to-use Streamlit UI**\
+✅ **Configurable with different LLMs**
+
+---
+
+📧 Contact
+
+For any queries, reach out to [Nikhileswar185@gmail.com](mailto\:Nikhileswar185@gmail.com).
