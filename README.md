@@ -52,7 +52,7 @@ Run the following command to launch the chatbot in your browser:
 streamlit run app.py
 ```
 
-This will start the chatbot interface on **localhost**. Let it load till you see the text box , and you are ready to query on your custom documents
+This will start the chatbot interface on localhost. Let it load till you see the text box , and you are ready to query on your custom documents
 ---
 
 ## 🤖 Features
