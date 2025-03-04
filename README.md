@@ -10,8 +10,13 @@ git clone https://github.com/Nikhileswar-185/RAG_CHATBOT.git
 cd RAG_CHATBOT
 pip install -r requirements.txt
 
-
 ---
+
+## **3️⃣ LLM Configuration**
+```md
+[Click here to visit Google]([API_LINK](https://aistudio.google.com/app/apikey?_gl=1*e0wvf9*_ga*MTgzODc3NDA3Ny4xNzQxMDg4NzU1*_ga_P1DBVKWT6V*MTc0MTA4ODc1NS4xLjEuMTc0MTA4ODc4Ni4yOS4wLjU1MzI5NDMyMw..) )
+
+
 
 ## **3️⃣ How to Use**
 ```md
