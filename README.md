@@ -45,22 +45,9 @@ streamlit run app.py
 ```
 
 This will launch the chatbot on **localhost**.
-
+Let it load till you see the text box , and you are ready to query on your custom documents
 ---
 
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
 
 ## 📧 Contact
 
