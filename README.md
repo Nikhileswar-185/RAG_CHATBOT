@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## 🔑 LLM Configuration
 
-To use **Gemini API**, create an API key and add it to the `.env` file.
+To use **Gemini API**[Free of charge one], create an API key and add it to the `.env` file.
 
 🔗 [Get GEMINI API KEY](https://www.google.com)
 
